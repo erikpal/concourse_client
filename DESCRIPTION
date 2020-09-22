@@ -1,0 +1,16 @@
+Package: concourseClient
+Title: R Intellidemia Concourse API Client
+Version: 0.0.1
+Date: 2020-09-21
+Authors@R: person("Erik", "Palmore", email = "erikpal@gmail.com", role = c("aut", "cre"))
+Description: Provides an interface to the Intellidemia Concourse API to get syllabus data
+   create/edit course objects. Functions form and submit API requests to the specified
+   Concourse server.  Results for most calls are returned as data frames.  Calls are made
+   recursively for complete results unless paging options are provided.
+Depends:
+    R (>= 3.2.1)
+Imports:
+    httr (>= 1.0.0), jsonlite (>= 1.7.0)
+License: GPL-2
+RoxygenNote: 7.1.1
+Encoding: UTF-8
