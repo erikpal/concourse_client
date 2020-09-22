@@ -12,7 +12,7 @@ bRush is not available on CRAN and can be installed directly from GitHub
 using the devtools package (which is available on CRAN).
 
 ``` r
-devtools::install_github("erikpal/bRush")
+devtools::install_github("erikpal/concourse_client")
 ```
 
 ## Setup and use of API Token
