@@ -10,7 +10,7 @@ Description: Provides an interface to the Intellidemia Concourse API to get syll
 Depends:
     R (>= 3.2.1)
 Imports:
-    httr (>= 1.0.0), jsonlite (>= 1.7.0)
+    httr (>= 1.0.0), jsonlite (>= 1.7.0), rvest, xml2
 License: GPL-2
 RoxygenNote: 7.1.1
 Encoding: UTF-8
